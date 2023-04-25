@@ -1,0 +1,201 @@
+.experts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experts h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lexend', sans-serif;
+  border-bottom: 2px solid #ffffff;
+  width: 26%;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.experts p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.experts p1 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.majorcard {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.majorcard h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #86C6EE;
+  margin-bottom: 20px;
+  font-family: 'Lexend', sans-serif;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0;
+}
+
+.card-deck-expert {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-expert {
+  width: 30%;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-expert p {
+  color: #666;
+}
+
+.card-expert-img-top {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-expert-body {
+  padding: 20px;
+}
+
+.card-expert-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-expert-text {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-expert-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.card-expert-buttons h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 20px;
+  font-family: 'Lexend', sans-serif;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 0;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 100px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.button-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  align-self: self-start;
+}
+
+.button-row p {
+  color: #666;
+  margin: 0 10px 0 10px;
+  font-size: medium ;
+  text-align: justify;
+}
+
+.button-left {
+  flex-basis: 50%;
+  text-align: right;
+  background-color: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 30px 0 30px;
+  margin-right: 20px;
+}
+
+.button-right {
+  flex-basis: 50%;
+  text-align: right;
+  background-color: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 30px 0 30px;
+  margin-left: 20px;
+}
+
+.card-expert-buttons p,
+.card-expert-buttons button {
+  margin-top: 20px;
+}
+
+
+.card-expert-buttons button {
+  padding: 10px 10px;
+    background-color: #3cb1fa;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-expert-buttons button:hover {
+  background-color: #008adf;
+}
+
+.card-expert-buttons .button-right button {
+  padding: 10px 10px;
+    background-color: #3cb1fa;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-top: 25px;
+
+}
+
+.card-expert-buttons .button-right button:hover {
+  background-color: #008adf;
+}

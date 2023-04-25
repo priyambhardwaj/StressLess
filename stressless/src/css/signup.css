@@ -1,0 +1,130 @@
+@font-face {
+    font-family: feelfree;
+    src: url(D:\Mern\Mern\stressless\src\FeelfreePersonalUseRegular-lg2Bw.ttf);
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #86c6ee;
+  }
+  
+  .signup__left {
+    width: 470px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .signup h1 {
+    margin-top: 0;
+  }
+  
+  .signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .signup label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .signup input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+
+  .signup input [type="date"],
+  .signup input[type="email"],
+  .signup input[type="password"],
+  .signup input[type="file"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .signup input[type="text"]{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 95.5%;
+  }
+
+  .signup input[type="date"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  .signup input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3cb1fa;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  
+  .signup input[type="submit"]:hover {
+    background-color: #008adf;
+  }
+  
+  .signup input[type="file"] {
+    padding: 0;
+  }
+  
+  .signup button[type="submit"] {
+    margin-top: 20px;
+  }
+
+
+ .switch1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.switch1 p {
+  color: #86c6ee;
+  text-align: left;
+  margin: 0;
+}
+
+.switch1 button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #008CBA;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.switch1 button:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.card-schedule input {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  max-width:100%;
+}

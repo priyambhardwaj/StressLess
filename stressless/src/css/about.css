@@ -1,0 +1,117 @@
+.aboutus h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lexend', sans-serif;
+  border-bottom: 2px solid #ffffff;
+  width: 14.4%;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+
+.hero2 {
+  height: 400px;
+  background-color: #86C6EE;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  margin-left: 20px;
+}
+
+.right-section1 {
+  height: 400px;
+  background-color: #86C6EE;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+  margin-left: 20px;
+}
+
+
+
+.hero2 p {
+  font-size: 1.4rem;
+  text-align: justify;
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 7rem;
+}
+
+.right-section2 img {
+  padding-left: 10px;
+  height: 10cm;
+
+}
+
+.hero3 img {
+  padding-right: 10px;
+  height: 10cm;
+
+}
+
+
+.right-section1 p {
+  font-size: 1.4rem;
+  text-align: justify;
+  color: white;
+  margin-bottom: 40px;
+  margin-right: 7rem;
+}
+
+
+
+.my-section2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  background-color: #86C6EE;
+}
+
+.my-section1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  background-color: #86C6EE;
+}
+
+
+
+.hero2,
+.right-section2 {
+  padding: 20px;
+  background-color: #86C6EE;
+}
+
+.hero3,
+.right-section1 {
+  padding: 20px;
+  background-color: #86C6EE;
+}
+
+.new-section {
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+  padding: 50px 300px 50px 300px;
+  margin: 50px 100px 50px 100px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .my-section {
+    grid-template-columns: 1fr;
+  }
+}

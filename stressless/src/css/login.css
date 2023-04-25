@@ -1,0 +1,126 @@
+@font-face {
+    font-family: feelfree;
+    src: url(D:\Mern\Mern\stressless\src\FeelfreePersonalUseRegular-lg2Bw.ttf);
+}
+
+
+
+.login {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.login__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #f7f7f7;
+}
+
+.login__left img {
+    height: 7cm;
+    margin-left: 40px;
+}
+
+.login__left h1 {
+    color: #2281bb; 
+  text-decoration: none;
+  border-bottom: none; 
+  font-family: feelfree;
+  font-weight: 200;
+  position: relative;
+  font-size: 7rem;
+  text-align: center;
+  margin: 0 0 70px 0;
+}
+
+.login__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #86c6ee;
+}
+
+.login__right h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Lexend', sans-serif;
+    text-align: left;
+}
+
+
+.login__right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.login__right label {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.login__right input[type="email"],
+.login__right input[type="password"],
+.login__right input[type="text"],
+.login__right textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.login__right textarea {
+    height: 100px;
+}
+
+.login__right button[type="submit"] {
+    width: 100%;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.switch {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.switch p{
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+}
+
+.switch button{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    color: #008CBA;
+    cursor: pointer;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.switch button:hover{
+    text-decoration: underline;
+    color: #fbfbfb;
+}

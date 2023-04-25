@@ -1,0 +1,80 @@
+.comm{
+  margin-bottom: 320px;
+}
+.comm h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lexend', sans-serif;
+  border-bottom: 2px solid #ffffff;
+  width: 34%;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.comm label{
+  margin-right: 440px;
+}
+
+
+
+.comm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comm textarea {
+  width: 250%;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+
+  
+}
+
+.comm-btn button {
+  padding: 10px 20px;
+  background-color: #009bfc;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  width: 200px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin: auto;
+  margin-left: 11cm;
+  margin-bottom: 50px;
+}
+
+.comm-btn button:hover {
+  background-color: #005286;
+}
+
+
+.show_hide button{
+  padding: 10px 20px;
+  background-color: #009bfc;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  width: 200px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin: auto;
+  margin-left: 30cm;
+  
+}
+
+.show_hide button:hover {
+  background-color: #005286;
+}

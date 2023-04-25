@@ -1,0 +1,99 @@
+.tech h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lexend', sans-serif;
+  border-bottom: 2px solid #ffffff;
+  width: 42.3%;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.techniques {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tech-card h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #1e87c8;
+  font-family: 'Lexend', sans-serif;
+}
+
+.tech-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 440px;
+  border-radius: 5%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0px;
+}
+
+.tech-card1 {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 440px;
+  border-radius: 5%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+.tech-card1 p.price {
+  margin-top: 0;
+}
+
+ol {
+  list-style-position: inside;
+  margin-top: 40px;
+  padding-left: 0;
+  text-align: left;
+}
+
+ol li {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.tech-card1 li{
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+
+.tech-card1 li a{
+  text-decoration: none;
+  color: #666;
+}
+
+.button {
+  background-color: #3cb1fa;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #008adf;
+}

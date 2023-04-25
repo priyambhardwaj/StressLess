@@ -1,0 +1,45 @@
+.animation {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .cycle-container {
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    animation: move-cycle 12s linear infinite;
+  }
+  
+  .cycle {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes move-cycle {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100vw);
+    }
+  }
+  
+  .cycle-container:nth-of-type(2) {
+    left: 500px;
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    width: 110px;
+    height: 110px;
+    animation: move-cycle 10s linear infinite;
+  }
+  
+  

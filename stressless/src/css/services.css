@@ -1,0 +1,78 @@
+.serv h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+    border-bottom: 2px solid #ffffff;
+    width: 13%;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.card-conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+  }
+
+  .card-conta h2{
+    font-family: 'Lexend', sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+    font-size: xx-large;
+    color: #576166;
+  }
+
+  .card-conta p{
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+    color: #576166;
+  }
+
+  .card-conta .btnnn{
+    padding: 10px 20px;
+    background-color: #3cb1fa;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .card-conta .btnnn:hover {
+    background-color: #008adf;
+  }
+  
+  .card-lef {
+    flex: 0.2;
+    margin-right: 20px;
+  }
+
+  .card-lef img{
+    height: 7cm;
+  }
+  
+  .card-ri {
+    flex: 1;
+  }
+

@@ -1,0 +1,187 @@
+.profile{
+  margin-bottom: 50px;
+}
+
+.profile h1 {
+  font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+    border-bottom: 2px solid #ffffff;
+    width: 15.4%;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.pcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.pcard__left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* add this line to make the image centered vertically */
+}
+
+.pcard__left img {
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 50%;
+   /* add this line to add some space between the image and the text */
+  margin-right: 70px;
+}
+
+
+.pcard__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pcard__right-details{
+  margin-left: 100px;
+}
+
+
+
+.pcard__right h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #37a5ea;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+.pcard__right-details{
+margin: 0 auto;
+}
+
+.pcard__right form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.pcard__right label {
+  font-size: 1.2rem;
+  color: #1887cd;
+  display: flex;
+  margin-left: 100px;
+}
+
+
+.pcard__right input[type="text"],
+.pcard__right input[type="email"],
+.pcard__right input[type="number"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  margin-left: 100px;
+  width: 300px; /* Increase the width of the input fields */
+}
+
+
+.pcard__right select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  width: 318px; /* Increase the width of the select field */
+  height: 6rem;
+  margin-left: 100px;
+
+}
+.pcard__button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+
+.pcard__right button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3cb1fa;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  width: 165px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin: 0;
+  margin-left: auto;
+}
+
+
+.pcard__right button[type="submit"]:hover {
+  background-color: #008adf;
+}
+
+.occupation-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.occupation-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.occupation-menu {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  min-width: 170px;
+}
+
+.occupation-menu li {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.occupation-menu li:hover {
+  background-color: #f1f1f1;
+}
+
+.occupation-menu li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.occupation-menu li a:hover {
+  color: #4CAF50;
+}
+
+
+

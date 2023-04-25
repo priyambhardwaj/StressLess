@@ -1,0 +1,56 @@
+.VC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .vcForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  }
+  
+  .vcForm div {
+    margin-bottom: 10px;
+  }
+  
+.vcForm label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+  }
+  
+  .vcForm input[type="text"] {
+    width: 94%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .vcForm button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3cb1fa;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 165px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  .vcForm button[type="submit"]:hover {
+    background-color: #008adf;
+  }
+  

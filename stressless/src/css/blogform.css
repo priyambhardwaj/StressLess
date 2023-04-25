@@ -1,0 +1,72 @@
+.bf h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+    border-bottom: 2px solid #ffffff;
+    width: 36%;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-form {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff; /* Add this line */
+    border-radius: 1rem;
+  }
+
+  .blog-form h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    display: block;
+    width: 96%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    
+  }
+  
+  .form-group textarea {
+    height: 200px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3cb1fa;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #008adf;
+  }
+  

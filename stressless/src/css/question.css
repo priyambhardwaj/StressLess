@@ -1,0 +1,120 @@
+.cardsQues {
+  
+  margin-top: 50px;
+  min-height: 200px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.cardsQues-header {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.cardsQues-subtitle {
+  font-style: italic;
+  margin-top: 40px;
+}
+
+.cardsQues-body {
+  padding: 10px;
+  background-color: #fff;
+
+  margin-bottom: 50px;
+  border-radius: 0 0 1rem 1rem;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.show_hide button{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+.cardsQues-header {
+  background-color: #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+}
+
+  .like-dislike-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .like-button,
+  .dislike-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 0.5rem;
+  }
+
+  .like-button span,
+  .dislike-button span {
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+
+  .like-button {
+    color: green;
+  }
+
+  .dislike-button {
+    color: red;
+  }
+
+  .ans{
+    margin-right: 610px;
+  }
+  
+
+  
+
+
+  

@@ -1,0 +1,92 @@
+.card-schedule form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .card-schedule {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto 0;
+  }
+  
+  .card-schedule h1 {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .card-schedule .left-label {
+    display: flex;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .card-schedule label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card-schedule .input-field {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .card-schedule button[type='submit'] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+    
+    .card-schedule button[type="submit"] {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .card-schedule button[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+    
+    .roomcode button{
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    .roomcode button:hover {
+      background-color: #0069d9;
+    }
